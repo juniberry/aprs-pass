@@ -5,11 +5,13 @@ This program generates an APRS-IS passcode for a given amateur radio callsign. I
 
 ## Building the Program
 To build the program, run the following command in the terminal:
-make
+
+    make
 
 ## Usage
 Run the program with the callsign as an argument:
-./aprsispass <callsign>
+
+    ./aprsispass <callsign>
 
 Note: Only supply the base callsign; do not supply an SSID or prefix.
 
